@@ -38,7 +38,6 @@ Below are a few sample test cases to validate the program’s behavior:
 
 ### Test Case 1: Same Full Names
 Input:
-mathematica
 ```
 Guest 1 First Name: Alice
 Guest 1 Last Name: Johnson
@@ -54,7 +53,6 @@ alice johnson and alice johnson have the same name!
 
 ### Test Case 2: Different Full Names
 Input:
-mathematica
 ```
 Guest 1 First Name: John
 Guest 1 Last Name: Smith
@@ -69,7 +67,6 @@ john smith and michael johnson are different guests.
 ```
 ### Test Case 3: Same First Name, Different Last Name
 Input:
-mathematica
 ```
 Guest 1 First Name: Emily
 Guest 1 Last Name: Brown
