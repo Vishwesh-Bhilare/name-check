@@ -27,7 +27,7 @@ This program can be adapted for use in various real-world applications such as:
 
 ---
 
-##Usage
+## Usage
 The program will prompt you for two users' full names (first and last names separately). After entering the names, the program will:
 
 Display the number of characters in both names.
@@ -36,7 +36,7 @@ Check if the two guests share the same first name or last name.
 Test Cases
 Below are a few sample test cases to validate the program’s behavior:
 
-###Test Case 1: Same Full Names
+### Test Case 1: Same Full Names
 Input:
 mathematica
 ```
@@ -52,7 +52,7 @@ Length of second guest's full name: 13 characters
 alice johnson and alice johnson have the same name!
 ```
 
-###Test Case 2: Different Full Names
+### Test Case 2: Different Full Names
 Input:
 mathematica
 ```
@@ -67,7 +67,7 @@ Length of first guest's full name: 10 characters
 Length of second guest's full name: 15 characters
 john smith and michael johnson are different guests.
 ```
-###Test Case 3: Same First Name, Different Last Name
+### Test Case 3: Same First Name, Different Last Name
 Input:
 mathematica
 ```
@@ -83,7 +83,7 @@ Length of second guest's full name: 14 characters
 Both guests have the same first name: emily!
 ```
 
-##Future Updates
+## Future Updates
 Potential future improvements for this program could include:
 
 Support for More Guests: Extend the program to compare the names of multiple guests, not just two.
@@ -93,7 +93,7 @@ Graphical User Interface (GUI): Develop a simple interface to allow users to ent
 
 ---
 
-##References
+## References
 C Library String Functions: C Programming - String Handling
 tolower() Function: Converting Characters to Lowercase
 Event Name Checking Algorithms: Algorithm Design for Event Planning
