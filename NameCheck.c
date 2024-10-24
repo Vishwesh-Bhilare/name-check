@@ -27,7 +27,7 @@ int main() {
     char guest1_first[50], guest1_last[50];
     char guest2_first[50], guest2_last[50];
     char full_name1[100], full_name2[100];
-    int cmp, len1, len2;
+    int cmp, len1, len2, i;
 
     // Getting guest's full name
     printf("Enter first guest's first name: ");
@@ -82,7 +82,9 @@ int main() {
         printf("\nBoth guests have the same last name: %s!\n", guest1_last);
     }
 
-delay(10);
+for(i=0; i<11; i++){
+    delay(1000);
+}
 
     return 0;
 }
