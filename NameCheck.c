@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
+#include <time.h>
 
 // Function to convert text to lowercase
 void toLowerArray(char text[]) {
