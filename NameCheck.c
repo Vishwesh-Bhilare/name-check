@@ -42,8 +42,8 @@ int main() {
     toLowerArray(full_name2);
 
     // length
-    len1 = strlen(full_name1);
-    len2 = strlen(full_name2);
+    len1 = strlen(full_name1) - 1;
+    len2 = strlen(full_name2) - 1;
     printf("\nLength of first guest's full name: %d characters", len1);
     printf("\nLength of second guest's full name: %d characters", len2);
 
