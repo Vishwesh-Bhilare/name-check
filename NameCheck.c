@@ -9,6 +9,20 @@ void toLowerArray(char text[]) {
     }
 }
 
+// delay
+void delay(int number_of_seconds)
+{
+    // Converting time into milli_seconds
+    int milli_seconds = 1000 * number_of_seconds;
+
+    // Storing start time
+    clock_t start_time = clock();
+
+    // looping till required time is not achieved
+    while (clock() < start_time + milli_seconds)
+        ;
+}
+
 int main() {
     char guest1_first[50], guest1_last[50];
     char guest2_first[50], guest2_last[50];
@@ -67,6 +81,8 @@ int main() {
     if (strcmp(guest1_last, guest2_last) == 0) {
         printf("\nBoth guests have the same last name: %s!\n", guest1_last);
     }
+
+delay(10);
 
     return 0;
 }
